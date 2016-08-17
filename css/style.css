@@ -1,0 +1,200 @@
+/*Font import*/
+@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
+
+/*Body background colour and setttings*/
+body {
+	padding-top: 50px;
+	text-align: center;
+	background: #454545;
+	font-size: 16px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.starter-template img {
+	height:165px;
+	display: inline;
+}
+
+/*General font styling for page*/
+p, span, div, li, a, input, button {
+	font-family: ARVO, serif;
+}
+
+p {
+	color: white;
+}
+
+h1, h2 {
+	font-family: 'Luckiest Guy', cursive;
+	font-style: italic;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+}
+
+header h1 {
+	color: #C55C5C;
+	text-shadow: -5px 3px 1px #f7f7f7;
+	font-size: 8em;
+  	color: #C55C5C;
+  	font-size: 6em;
+	text-shadow: -5px 3px 1px #053C42;
+	text-align: center;
+	-webkit-transform: rotate(-7deg);
+	-moz-transform: rotate(-7deg);
+	margin: 20px auto;
+	text-shadow:#fff 0px 1px 0, #000 0 -1px 0;
+	line-height:3em; font-size:3em; font-weight:bold; color:#C55C5C;
+}
+
+section#details, section#credits h2 {
+	color: #C55C5C;
+}
+
+#fetch {
+	margin: auto;
+	text-align: center;
+	max-width: 500px;
+}
+
+#term {
+	padding: 10px;
+	font-size: 1.6em;
+	margin: 10px auto;
+	width: 80%;
+}
+
+#search {
+	background: #e3e3e3;
+	border: 1px solid #bbb;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	-moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	-ms-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	-o-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	box-shadow: inset 0 0 1px 1px #f6f6f6;
+	color: #333;
+	line-height: 1;
+	font-size: 1.6em;
+	padding: 8px 0 9px;
+	text-align: center;
+	text-shadow: 0 1px 0 #fff;
+	display: block;
+	margin: 10px auto;
+	width: 80%;
+}
+
+#search:hover {
+	background: #d9d9d9;
+	-webkit-box-shadow: inset 0 0 1px 1px #eaeaea;
+	-moz-box-shadow: inset 0 0 1px 1px #eaeaea;
+	-ms-box-shadow: inset 0 0 1px 1px #eaeaea;
+	-o-box-shadow: inset 0 0 1px 1px #eaeaea;
+	box-shadow: inset 0 0 1px 1px #eaeaea;
+	color: #222;
+	cursor: pointer;
+}
+
+#search:active {
+	background: #d0d0d0;
+	-webkit-box-shadow: inset 0 0 1px 1px #e3e3e3;
+	-moz-box-shadow: inset 0 0 1px 1px #e3e3e3;
+	-ms-box-shadow: inset 0 0 1px 1px #e3e3e3;
+	-o-box-shadow: inset 0 0 1px 1px #e3e3e3;
+	box-shadow: inset 0 0 1px 1px #e3e3e3;
+	color: #000;
+}
+
+#poster {
+	text-align: center;
+}
+
+#thePoster {
+	display: inline-block;
+	max-width: 90%;
+	margin: 20px auto;
+	-webkit-box-shadow: 1px 1px 20px #000000;
+	-moz-box-shadow: 1px 1px 20px #000000;
+	box-shadow: 1px 1px 20px #000000;
+}
+
+.loading {
+	color: #C55C5C;
+	margin: 20px auto;
+	font-size: 2em;
+}
+
+h2.loading, section#details h2, section#credits h2 {
+	color: #C55C5C;
+	text-shadow: -3px 3px 1px #03282C;
+	text-align: center;
+	margin: 20px auto 0;
+}
+
+/*h2.loading {
+	color: #C55C5C;
+	text-shadow: -3px 2px 1px #f7f7f7;
+	text-align: center;
+	margin: 20px auto 0;
+}
+*/
+#myCanvas {
+	margin-left: 150px;
+}
+
+footer {
+	text-align: center;
+	margin: 20px auto;
+}
+
+footer p, footer a {
+	color: black;
+}
+
+.twitter-follow-button {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+p#movie-details {
+	color: white;
+}
+
+section#credits {
+	width: 100%;
+	display: inline;
+}
+
+#cast-name {
+	float: left;
+	display: inline;
+	position: relative;
+	width: 100px;
+	left: 100px;
+	color: white;
+	z-index: 50;
+}
+
+img#movie-credits {
+	width: 100px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	float: left;
+	display: inline;
+	position: relative;
+}
+
+#copyright {
+	display: block;
+	clear: both;
+}
